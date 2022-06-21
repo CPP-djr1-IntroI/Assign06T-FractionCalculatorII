@@ -51,39 +51,22 @@ Answer: -4/9
 Enter: <b>0/0 + 1/2</b>
 </pre>
 
-**Note1:** Each inputted value is to be \> 0.0. If an inputted value is
-entered incorrectly, output the message "Incorrect Input -- Terminating
-Program" Here is an example. You are to terminate the program
-immediately when an illegal input occurs. **Further, there is to be only
-one return statement at the end of your program.**
+**Note1:** The program terminates when the first term entered is 0/0
 
-<pre>
-*******************
-Mortgage Calculator
-*******************
+**Note2:** Error check that there is a / between each rational number
+and make sure that a legal operator (+, -, *, /) is entered. If an
+illegal expression is entered, output "Error: Illegal Expression"
+and terminate the program.
 
-Enter Purchase Price: $<b>115000.00</b>
-Enter Down Payment: $<b>15000.00</b>
-Enter Interest Rate: %<b>-1.0</b>
-Incorrect Input - Terminating Program
-</pre>
-
-**Note2:** Do not use any C++ constructs not introduced in the class
-thus far.**\
-**
-
-You will need to use the pow function. In order to use the pow function,
-you will need to include the library cmath by using the preprocessor
-directive #include \<cmath>. The pow function accepts two doubles and
-returns a double. As an example,
-
-cout \<\< pow (2.0, 3.0); // outputs 8.0 because 2.0<sup>3.0</sup> equals 8.0
+**Note3** Your main function should be small and you should have many
+functions in your solution. A proper design is as important as a
+solution that works.
 
 **To complete this assignment you must submit the following:**
 
 1.  **An electronic Solution of your program on GitHub**
 
-    a.  You are to click on the Assign02 Link to accept this
+    a.  You are to click on the Assign06 Link to accept this
         assignment as we've done in lab. Once accepted, code up a
         complete solution to the above assignment specification. Your
         complete solution is to be pushed to GitHub no later than the
@@ -99,5 +82,5 @@ cout \<\< pow (2.0, 3.0); // outputs 8.0 because 2.0<sup>3.0</sup> equals 8.0
         you typed everything correctly. Be aware that C++ is
         case-sensitive.
 
-2.   **An electronic copy of your program (punetidAssign02FractionCalculator.pdf) is 
+2.   **An electronic copy of your program (punetidAssign06FractionCalculator.pdf) is 
 to be emailed to ryandj@pacificu.edu**
