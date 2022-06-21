@@ -58,7 +58,9 @@ and make sure that a legal operator (+, -, *, /) is entered. If an
 illegal expression is entered, output "Error: Illegal Expression"
 and terminate the program.
 
-**Note3** Your main function should be small and you should have many
+**Note3:** Always output a simplified answer
+
+**Note4** Your main function should be small and you should have many
 functions in your solution. A proper design is as important as a
 solution that works.
 
