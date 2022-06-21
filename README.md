@@ -60,7 +60,7 @@ and terminate the program.
 
 **Note3:** Always output a simplified answer
 
-**Note4** Your main function should be small and you should have many
+**Note4:** Your main function should be small and you should have many
 functions in your solution. A proper design is as important as a
 solution that works.
 
