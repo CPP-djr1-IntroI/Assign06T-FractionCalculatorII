@@ -7,14 +7,19 @@ Assignment:  Simple Fraction Calculator
 Purpose:     To implement a simple integer calculator that works as
 						 follows.
 
-						 *** Fraction Calculator ***
+							*** Fraction Calculator ***
 
-						 Enter: 1/2 + 2/3
-						 Answer: 7/6
+							Enter: -1/2 - -2/3
+							Answer: 1/6
 
-						 *** Fraction Calculator ***
+							*** Fraction Calculator ***
 
-						 Enter: 0/0
+							Enter: 2/-3 / -3/-2
+							Answer: -4/9
+
+							*** Fraction Calculator ***
+
+							Enter: 0/0 + 1/2
 *****************************************************************************/
 
 #include <iostream>
